@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #191414;
+    font-family: poppins;
+}
+
+nav {
+    background: rgb(200, 200, 200);
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: #191414;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.settingsImg {
+    float: right;
+    width: 24px;
+    height: 24px;
+    opacity: 0.8;
+    cursor: pointer;
+    margin-top: 26px;
+    margin-right: 20px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #191414;
+    font-size: 17px;
+}
+
+.navElements:hover {
+    font-weight: bold;
+}
+
+#search {
+    background-color: #191414;
+    width: 300px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#searchBar {
+    all: unset;
+    font: 16px system-ui;
+    color: rgb(200, 200, 200);
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+::placeholder {
+    color: rgb(200, 200, 200);
+    opacity: 0.8;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+
+svg {
+    color: rgb(200, 200, 200);
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    opacity: 0.8;
+    padding: 10px;
+}
+
+/*theBody*/
+
+.theBody {
+    background-color: #191414;
+}
