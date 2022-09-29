@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Northover</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <img src="background2.jpg" class="background">
+    <nav class="nav">
+        <a href="index.html">
+            <button class="back">
+                <img src="back.png" class="backImg">
+                <h3 class="backTxt">back</h3>
+            </button>
+        </a>
+        <img src="upload.png" class="uploadImg">
+        <div class="dropdown">
+            <button class="dropbtn"><img src="dots.png" class="dotImg"></button>
+            <div class="dropdown-content">
+                <a href="#">Add to library</a>
+                <a href="#">Add to Playlist</a>
+                <a href="#">Add to Favorites</a>
+                <a href="#">Download</a>
+                <a href="#">Show album</a>
+            </div>
+          </div>
+    </nav>
+    <div class="recentCard">
+        <img id='recentImg' src="posters\Lead to Win™ Podcast - Michael Hyatt.jpg">
+            <div class="recentText">
+                <h3 class="podTitle">Truth about Your Life</h3>
+                <p class="podDesc">Michael Hyatt</p>
+            </div>
+    </div>
+    <div class="allControls">
+        <div class='progressArea'>
+            <div class="progressBar">
+                <audio id="main-audio" src=""></audio>
+            </div>
+        </div>
+        <div class="timer">
+            <span class="start time">0:00</span>
+            <span class="stop time">12:40</span>
+        </div>
+        <audio id="myAudio">
+            <source src="music\male2.mpeg" type="audio/mpeg">
+        </audio>
+        <div class="controls">
+            <a href="podcast1.html">
+                <img src="prev.png" class="controlsImg prevImg">
+            </a>
+            <img src="play.png" class="controlsImg playImg" id="play" onclick="changeImage()">
+            <a href="podcast3.html">
+                <img src="next1.png" class="controlsImg nextImg">
+            </a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
